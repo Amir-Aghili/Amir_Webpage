@@ -1,0 +1,35 @@
+
+/* ---- Black & grey theme ---- */
+body{background:#0a0a0a!important;color:#b5b5b5!important}
+.bg-color-sky-light,.bg-color-white,.service,.header,.header .navbar,.page-on-scroll .header .navbar,.footer,.footer-logo-wrap,.work-popup-overlay{background-color:#0a0a0a!important;background-image:none!important}
+#posts,#certifications,#publications,.bg-color-sky-light{background-color:#111!important}
+.bg-color-base,.service.bg-color-base{background-color:#1e1e1e!important}
+.header .navbar,.page-on-scroll .header .navbar{border-bottom-color:#222!important}
+h1,h2,h3,h4,h5,h6,strong,.nav-item-child,.header .logo-text,.footer .logo-text,.header .nav-item-child{color:#f2f2f2!important}
+p,li,span,.text-right p,.service p,.footer p,.footer-text{color:#9a9a9a!important}
+a{color:#d6d6d6}
+a:hover,a:focus{color:#fff}
+.nav-item-child-hover:hover,.js_nav-item.active .nav-item-child{color:#fff!important}
+.header .navbar-nav>li>a,.page-on-scroll .header .navbar-nav>li>a{color:#f2f2f2!important}
+.nav-item-child:before,.js_nav-item.active .nav-item-child:before,.js_nav-item .nav-item-child:before{background-color:#e6e6e6!important}
+.service{border:1px solid #1f1f1f!important}
+.service h3,.service .service-title{color:#f2f2f2!important}
+.service i,[class^="icon-"],[class*=" icon-"],.service-icon{color:#cfcfcf!important}
+.work-popup-overlay{background-color:rgba(10,10,10,.96)!important}
+.work-popup-tag-link,.work-popup-tag-item{color:#bdbdbd!important}
+.work-popup-content span{color:#9a9a9a!important}
+.cert-item{background:#161616!important;border-left-color:#5a5a5a!important}
+.cert-item strong,.cert-item strong a{color:#f2f2f2!important;border-bottom-color:#5a5a5a!important}
+.cert-item span{color:#8a8a8a!important}
+.post-card{background:#161616!important;border:1px solid #222}
+.post-card h3{color:#f2f2f2!important}
+.post-card p,.post-card li{color:#9a9a9a!important}
+.post-date{color:#bdbdbd!important}
+.btn-base-bg,.btn-theme.btn-base-bg{background:#e6e6e6!important;border-color:#e6e6e6!important;color:#0a0a0a!important}
+.btn-base-bg:hover{background:#fff!important;color:#000!important}
+.logo-text{color:#f2f2f2!important}
+.work{background:#161616}
+.masonry-grid-item .work img{filter:grayscale(100%) contrast(1.05)}
+hr,.header .line,.line{border-color:#222!important;background:#222!important}
+input,textarea,select{background:#161616!important;color:#eee!important;border-color:#333!important}
+.back-to-top{background:#e6e6e6!important;color:#0a0a0a!important}
