@@ -132,9 +132,9 @@ input,textarea,select{background:#fbfffd!important;color:#231d22!important;borde
 @media (max-width:600px){.proj-grid{grid-template-columns:1fr}}
 
 /* ---- Hero: split layout (photo left half, text panel right half) ---- */
-.promo-block{padding:0!important;margin-top:97px;min-height:640px;display:flex;align-items:center;position:relative;overflow:hidden;background:#2e3a32!important;box-shadow:none!important}
+.promo-block{padding:0!important;margin-top:97px;min-height:clamp(560px,46vw,880px);display:flex;align-items:center;position:relative;overflow:hidden;background:#2e3a32!important;box-shadow:none!important}
 .parallax-mirror{display:none!important}
-.promo-block:before{content:"";position:absolute;top:0;bottom:0;left:0;width:50%;background:url("../img/amir.jpg") center 20%/cover no-repeat}
+.promo-block:before{content:"";position:absolute;top:0;bottom:0;left:0;width:50%;background:url("../img/amir.jpg") center top/cover no-repeat}
 .promo-block .container{position:relative;width:100%;max-width:none;margin:0;padding:60px 6vw 60px calc(50% + 6vw)}
 .promo-block .container .row{margin:0}
 .promo-block .container .col-sm-6{float:none;width:100%;max-width:520px;padding:0}
