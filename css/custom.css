@@ -1,35 +1,66 @@
+/* ---- Light theme ---- */
+body{background:#fff!important;color:#5f6575!important}
 
-/* ---- Black & grey theme ---- */
-body{background:#0a0a0a!important;color:#b5b5b5!important}
-.bg-color-sky-light,.bg-color-white,.service,.header,.header .navbar,.page-on-scroll .header .navbar,.footer,.footer-logo-wrap,.work-popup-overlay{background-color:#0a0a0a!important;background-image:none!important}
-#posts,#certifications,#publications,.bg-color-sky-light{background-color:#111!important}
-.bg-color-base,.service.bg-color-base{background-color:#1e1e1e!important}
-.header .navbar,.page-on-scroll .header .navbar{border-bottom-color:#222!important}
-h1,h2,h3,h4,h5,h6,strong,.nav-item-child,.header .logo-text,.footer .logo-text,.header .nav-item-child{color:#f2f2f2!important}
-p,li,span,.text-right p,.service p,.footer p,.footer-text{color:#9a9a9a!important}
-a{color:#d6d6d6}
-a:hover,a:focus{color:#fff}
-.nav-item-child-hover:hover,.js_nav-item.active .nav-item-child{color:#fff!important}
-.header .navbar-nav>li>a,.page-on-scroll .header .navbar-nav>li>a{color:#f2f2f2!important}
-.nav-item-child:before,.js_nav-item.active .nav-item-child:before,.js_nav-item .nav-item-child:before{background-color:#e6e6e6!important}
-.service{border:1px solid #1f1f1f!important}
-.service h3,.service .service-title{color:#f2f2f2!important}
-.service i,[class^="icon-"],[class*=" icon-"],.service-icon{color:#cfcfcf!important}
-.work-popup-overlay{background-color:rgba(10,10,10,.96)!important}
-.work-popup-tag-link,.work-popup-tag-item{color:#bdbdbd!important}
-.work-popup-content span{color:#9a9a9a!important}
-.cert-item{background:#161616!important;border-left-color:#5a5a5a!important}
-.cert-item strong,.cert-item strong a{color:#f2f2f2!important;border-bottom-color:#5a5a5a!important}
-.cert-item span{color:#8a8a8a!important}
-.post-card{background:#161616!important;border:1px solid #222}
-.post-card h3{color:#f2f2f2!important}
-.post-card p,.post-card li{color:#9a9a9a!important}
-.post-date{color:#bdbdbd!important}
-.btn-base-bg,.btn-theme.btn-base-bg{background:#e6e6e6!important;border-color:#e6e6e6!important;color:#0a0a0a!important}
-.btn-base-bg:hover{background:#fff!important;color:#000!important}
-.logo-text{color:#f2f2f2!important}
-.work{background:#161616}
+/* Backgrounds */
+.bg-color-white,.service,.header,.header .navbar,.page-on-scroll .header .navbar,.footer,.footer-logo-wrap{background-color:#fff!important;background-image:none!important}
+.bg-color-sky-light,.footer{background-color:#f6f7f9!important;background-image:none!important}
+#posts,#certifications,#about,#work{background-color:#fff!important}
+#publications,#contact,#experience,.bg-color-sky-light{background-color:#f6f7f9!important}
+.bg-color-base,.service.bg-color-base{background-color:#eceff3!important}
+
+/* Header */
+.header .navbar,.page-on-scroll .header .navbar{border-bottom:1px solid #e8eaee!important;box-shadow:0 1px 8px rgba(40,46,60,.05)}
+.header .navbar-nav>li>a,.page-on-scroll .header .navbar-nav>li>a,.nav-item-child,.header .nav-item-child{color:#3d4352!important}
+.nav-item-child-hover:hover,.js_nav-item.active .nav-item-child{color:#111!important}
+.nav-item-child:before,.js_nav-item.active .nav-item-child:before,.js_nav-item .nav-item-child:before{background-color:#515769!important}
+.header .nav-item-hover:after{background:#515769!important}
+.header .navbar-toggle .toggle-icon,.header .navbar-toggle .toggle-icon:before,.header .navbar-toggle .toggle-icon:after{background:#3d4352}
+.header .logo-text,.footer .logo-text,.logo-text{color:#2a2f3b!important}
+
+/* Typography */
+h1,h2,h3,h4,h5,h6,strong{color:#2a2f3b!important}
+p,li,span,.text-right p,.service p,.footer p,.footer-text{color:#646a7a!important}
+a{color:#3d4352}
+a:hover,a:focus{color:#000}
+
+/* Hero stays light-on-photo */
+.promo-block .promo-block-title,.promo-block .promo-block-text,.promo-block h1,.promo-block p{color:#fff!important}
+.promo-block .social-icons,.promo-block .social-icons i{color:#fff!important}
+.promo-block .social-icons:hover{background:#fff!important}
+.promo-block .social-icons:hover i{color:#2a2f3b!important}
+
+/* Experience cards */
+.service{border:1px solid #e8eaee!important}
+.service h3,.service .service-title{color:#2a2f3b!important}
+.service i,[class^="icon-"],[class*=" icon-"],.service-icon{color:#7a8091!important}
+.service.bg-color-base h3,.service.bg-color-base p,.service.bg-color-base i{color:#2a2f3b!important}
+.service.bg-color-base p{color:#4a5060!important}
+
+/* Projects */
+.work{background:#fff}
+.work:hover .work-overlay:before{background:rgba(81,87,105,.45)!important}
 .masonry-grid-item .work img{filter:grayscale(100%) contrast(1.05)}
-hr,.header .line,.line{border-color:#222!important;background:#222!important}
-input,textarea,select{background:#161616!important;color:#eee!important;border-color:#333!important}
-.back-to-top{background:#e6e6e6!important;color:#0a0a0a!important}
+.work-popup-overlay{background-color:rgba(81,87,105,.5)!important}
+.work-popup-content{background:#fff!important;box-shadow:0 10px 40px rgba(40,46,60,.25)}
+.work-popup-tag-link,.work-popup-tag-item{color:#5f6575!important}
+.work-popup-content span{color:#7a8091!important}
+.work-popup-close{color:#7a8091!important}
+
+/* Certifications & research */
+.cert-item{background:#f6f7f9!important;border-left-color:#aab0bf!important}
+#publications .cert-item{background:#fff!important}
+.cert-item strong,.cert-item strong a{color:#2a2f3b!important;border-bottom-color:#aab0bf!important}
+.cert-item span{color:#7a8091!important}
+
+/* Posts */
+.post-card{background:#fff!important;border:1px solid #e8eaee;box-shadow:0 2px 12px rgba(40,46,60,.06)}
+.post-card h3{color:#2a2f3b!important}
+.post-card p,.post-card li{color:#646a7a!important}
+.post-date{color:#7a8091!important}
+
+/* Buttons & misc */
+.btn-base-bg,.btn-theme.btn-base-bg{background:#2a2f3b!important;border-color:#2a2f3b!important;color:#fff!important}
+.btn-base-bg:hover{background:#000!important;color:#fff!important}
+hr,.header .line,.line{border-color:#e8eaee!important;background:#e8eaee!important}
+input,textarea,select{background:#fff!important;color:#2a2f3b!important;border-color:#d9dce3!important}
+.back-to-top{background:#2a2f3b!important;color:#fff!important}
