@@ -240,56 +240,45 @@
 
         <!-- Posts -->
         <div id="posts">
-            <div>
-                <div class="container content-lg">
-                    <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Posts</h2>
-                                <p>Shared on LinkedIn.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
-                            <div class="row row-space-2">
-                            <div class="col-sm-6 md-margin-b-4">
-                                <div class="post-card">
-                                    <img class="img-responsive full-width" src="img/post-fdr.jpg" alt="Graphic from the post: Why testing hundreds of features needs a smarter bar than 5%">
-                                    <div class="post-card-body">
-                                        <span class="post-date">4 Oct 2026</span>
-                                        <h3>Why testing hundreds of features needs a smarter bar than 5%</h3>
-                                        <p>A p-value of 0.05 is fine for one test, but screen 500 features and roughly 25 will look significant by chance. Controlling the false discovery rate with Benjamini-Hochberg keeps the shortlist honest.</p>
-                                        <ul><li>Ask what proportion of your shortlist is expected to be noise, not just whether a feature is significant</li><li>Leaner models, less overfitting and easier drift management</li><li>It filters noise but does not fix multicollinearity, so pair it with an effect-size check</li></ul>
-                                        <a class="btn-theme btn-theme-sm btn-base-bg text-uppercase" href="https://www.linkedin.com/feed/update/urn:li:activity:7512435879391453184/" target="_blank" rel="noopener">Read on LinkedIn</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 md-margin-b-4">
-                                <div class="post-card">
-                                    <img class="img-responsive full-width" src="img/post-confidence.jpg" alt="Graphic from the post: Your model's accuracy has a personality">
-                                    <div class="post-card-body">
-                                        <span class="post-date">27 Sep 2026</span>
-                                        <h3>Your model's accuracy has a personality</h3>
-                                        <p>A single AUC of 0.83 is a snapshot, not the whole story. Give your metric a confidence interval instead, and you can see how much wiggle room to expect on a different day.</p>
-                                        <ul><li>Before celebrating a new model, check whether the two ranges overlap</li><li>A very wide interval is the model being upfront about having less to go on</li><li>Bootstrap resampling gets you there: resample, recompute, and read the middle 95%</li></ul>
-                                        <a class="btn-theme btn-theme-sm btn-base-bg text-uppercase" href="https://www.linkedin.com/feed/update/urn:li:activity:7509892826856378368/" target="_blank" rel="noopener">Read on LinkedIn</a>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div class="col-sm-6 md-margin-b-4">
-                                <div class="post-card">
-                                    <img class="img-responsive full-width" src="img/post-llm.jpg" alt="Graphic from the post: LLM isn't one thing">
-                                    <div class="post-card-body">
-                                        <span class="post-date">16 Nov 2026</span>
-                                        <h3>LLM isn't one thing</h3>
-                                        <p>ChatGPT, Google Translate and spam filters all run on transformers, but they aren't the same kind. There are three designs, and picking the wrong one wastes time, money and compute.</p>
-                                        <ul><li>Encoder-only (BERT, RoBERTa) suits classification, search and spam detection</li><li>Decoder-only (GPT, Claude, Llama) suits chat, writing, coding and summarising</li><li>Encoder-decoder (T5, BART) suits translation and text-to-text tasks</li></ul>
-                                        <a class="btn-theme btn-theme-sm btn-base-bg text-uppercase" href="https://www.linkedin.com/feed/update/urn:li:activity:7527841964642263040/" target="_blank" rel="noopener">Read on LinkedIn</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="container content-lg">
+                <div class="posts-head">
+                    <div>
+                        <div class="posts-eyebrow">Shared on LinkedIn</div>
+                        <h2>Posts</h2>
                     </div>
+                    <a class="btn-theme btn-base-bg" href="https://www.linkedin.com/in/amir-latifaghili/" target="_blank" rel="noopener">View all on LinkedIn</a>
+                </div>
+                <div class="posts-grid">
+                    <a class="post-row" href="https://www.linkedin.com/feed/update/urn:li:activity:7527841964642263040/" target="_blank" rel="noopener">
+                        <img src="img/post-llm.jpg" alt="Graphic from the post: LLM isn’t one thing" loading="lazy">
+                        <div class="post-row-body">
+                            <div>
+                                <div class="post-meta">16 Nov 2026</div>
+                                <h3>LLM isn’t one thing</h3>
+                            </div>
+                            <div class="post-link">Read on LinkedIn →</div>
+                        </div>
+                    </a>
+                    <a class="post-row" href="https://www.linkedin.com/feed/update/urn:li:activity:7512435879391453184/" target="_blank" rel="noopener">
+                        <img src="img/post-fdr.jpg" alt="Graphic from the post: Why testing hundreds of features needs a smarter bar than 5%" loading="lazy">
+                        <div class="post-row-body">
+                            <div>
+                                <div class="post-meta">4 Oct 2026</div>
+                                <h3>Why testing hundreds of features needs a smarter bar than 5%</h3>
+                            </div>
+                            <div class="post-link">Read on LinkedIn →</div>
+                        </div>
+                    </a>
+                    <a class="post-row" href="https://www.linkedin.com/feed/update/urn:li:activity:7509892826856378368/" target="_blank" rel="noopener">
+                        <img src="img/post-confidence.jpg" alt="Graphic from the post: Your model’s accuracy has a personality" loading="lazy">
+                        <div class="post-row-body">
+                            <div>
+                                <div class="post-meta">27 Sep 2026</div>
+                                <h3>Your model’s accuracy has a personality</h3>
+                            </div>
+                            <div class="post-link">Read on LinkedIn →</div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
