@@ -32,8 +32,8 @@ body{background:#f0ebdc!important;color:#6b6663!important}
 
 /* Backgrounds */
 .bg-color-white,.header,.header .navbar,.page-on-scroll .header .navbar{background-color:#fff!important;background-image:none!important}
-#about,#certifications,#posts,#contact{background-color:#f0ebdc!important}
-#experience,#publications,#work,.bg-color-sky-light{background-color:#f7f4ea!important}
+#about,#certifications,#publications,#work{background-color:#f0ebdc!important}
+#experience,#education,#posts,.bg-color-sky-light{background-color:#f7f4ea!important}
 .service,.service.bg-color-base,.work,.post-card{background:#fbfffd!important}
 .footer,.footer-logo-wrap{background-color:#2b1e2a!important;background-image:none!important}
 
@@ -120,8 +120,8 @@ input,textarea,select{background:#fbfffd!important;color:#231d22!important;borde
 @media (max-width:480px){.post-row{flex-direction:column}.post-row img{width:100%;height:auto;aspect-ratio:16/9}}
 
 /* ---- Projects: blog-style cards (image on top, meta row, title, summary) ---- */
-#work{background-color:#f7f4ea!important}
-#contact .bg-color-sky-light{background-color:#f0ebdc!important}
+#work{background-color:#f0ebdc!important}
+#contact .bg-color-sky-light{background-color:#f7f4ea!important}
 .proj-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px 28px}
 .proj-card img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
 .proj-card .proj-meta{display:flex;justify-content:space-between;gap:12px;font-size:13px;color:#6b6663;margin:14px 0 8px}
@@ -147,3 +147,9 @@ input,textarea,select{background:#fbfffd!important;color:#231d22!important;borde
   .promo-block .container{padding:36px 24px 48px}
   .promo-block .promo-block-title{font-size:42px}
 }
+
+/* ---- Keep "Amir Aghili, Ph.D." on one line in header and footer ---- */
+.logo-text,.header .logo-wrap{white-space:nowrap}
+
+/* ---- Menu: tighter spacing on small laptops so all items fit on one row ---- */
+@media (min-width:992px) and (max-width:1199px){.header .nav-item-child{font-size:11.5px;letter-spacing:.02em;padding:12px 8px 12px 10px}}
