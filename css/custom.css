@@ -131,7 +131,19 @@ input,textarea,select{background:#fbfffd!important;color:#231d22!important;borde
 @media (max-width:991px){.proj-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:600px){.proj-grid{grid-template-columns:1fr}}
 
-/* ---- Hero: profile photo beside the name (needs img/amir.jpg) ---- */
-.promo-block .promo-block-divider{display:flex;align-items:center;gap:28px;flex-wrap:wrap}
-.promo-block .promo-block-divider:before{content:"";flex:none;width:150px;height:150px;border-radius:50%;background:url("../img/amir.jpg") center top/cover no-repeat;border:3px solid #ff5a00;box-shadow:0 6px 24px rgba(0,0,0,.35)}
-@media (max-width:480px){.promo-block .promo-block-divider:before{width:110px;height:110px}}
+/* ---- Hero: split layout (photo left half, text panel right half) ---- */
+.promo-block{padding:0!important;margin-top:97px;min-height:640px;display:flex;align-items:center;position:relative;overflow:hidden;background:#2e3a32!important;box-shadow:none!important}
+.parallax-mirror{display:none!important}
+.promo-block:before{content:"";position:absolute;top:0;bottom:0;left:0;width:50%;background:url("../img/amir.jpg") center 20%/cover no-repeat}
+.promo-block .container{position:relative;width:100%;max-width:none;margin:0;padding:60px 6vw 60px calc(50% + 6vw)}
+.promo-block .container .row{margin:0}
+.promo-block .container .col-sm-6{float:none;width:100%;max-width:520px;padding:0}
+.promo-block .promo-block-title{font-size:56px;line-height:1.1}
+.promo-block .promo-block-title br{display:none}
+.promo-block .promo-block-text{font-size:22px;line-height:1.5}
+@media (max-width:767px){
+  .promo-block{display:block;min-height:0;margin-top:97px}
+  .promo-block:before{position:static;display:block;width:100%;height:380px}
+  .promo-block .container{padding:36px 24px 48px}
+  .promo-block .promo-block-title{font-size:42px}
+}
