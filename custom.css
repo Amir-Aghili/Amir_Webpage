@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+/* ---- Fonts: Fraunces (serif) for headings, DM Sans for everything else ---- */
+body,p,li,li a,a,span,em,input,textarea,select,.btn-theme,.nav-item-child,.header .nav-item-child,.link{font-family:'DM Sans',Hind,sans-serif!important}
+h1,h2,h3,h4,h5,h6,.promo-block .promo-block-title,.promo-block .promo-block-text,.header .logo-text,.logo-text{font-family:'Fraunces',Georgia,serif!important;font-weight:600}
+.promo-block .promo-block-text{font-weight:400}
+h2{letter-spacing:-.01em}
+.header .nav-item-child{font-size:13px;font-weight:600;letter-spacing:.04em}
+
+/* ---- Certification / research lists: clean cards instead of bullets ---- */
+.cert-list{list-style:none;padding:0;margin:0}
+.cert-item{display:block;padding:16px 20px;margin-bottom:10px}
+.cert-item strong{display:block;font-size:16px;line-height:1.4}
+.cert-item span{display:block;font-size:13px;line-height:1.5;margin-top:2px}
+
+/* ---- Project tiles: tint the dark photos green so they match the palette ---- */
+.work .work-overlay:before{background:rgba(46,58,50,.55)!important}
+.work:hover .work-overlay:before{background:rgba(255,90,0,.55)!important}
+
+/* ---- Warm cream / forest green / orange theme ----
+   Palette:
+   cream      #f0ebdc   (page sections)
+   cream-lt   #f7f4ea   (alt sections)
+   card       #fbfffd   (cards)
+   forest     #2e3a32   (hero tint)
+   aubergine  #2b1e2a   (footer, buttons, dark accents)
+   orange     #ff5a00   (accent)
+   ink        #231d22   (headings)
+   body text  #6b6663
+*/
+body{background:#f0ebdc!important;color:#6b6663!important}
+
+/* Backgrounds */
+.bg-color-white,.header,.header .navbar,.page-on-scroll .header .navbar{background-color:#fff!important;background-image:none!important}
+#about,#certifications,#posts,#contact{background-color:#f0ebdc!important}
+#experience,#publications,#work,.bg-color-sky-light{background-color:#f7f4ea!important}
+.service,.service.bg-color-base,.work,.post-card{background:#fbfffd!important}
+.footer,.footer-logo-wrap{background-color:#2b1e2a!important;background-image:none!important}
+
+/* Header */
+.header .navbar,.page-on-scroll .header .navbar{border-bottom:1px solid #e6e0cf!important;box-shadow:none}
+.header .navbar-nav>li>a,.page-on-scroll .header .navbar-nav>li>a,.nav-item-child,.header .nav-item-child{color:#3a3339!important}
+.nav-item-child-hover:hover,.js_nav-item.active .nav-item-child{color:#ff5a00!important}
+.nav-item-child:before,.js_nav-item.active .nav-item-child:before,.js_nav-item .nav-item-child:before{background-color:#ff5a00!important}
+.header .nav-item-hover:after{background:#ff5a00!important}
+.header .navbar-toggle .toggle-icon,.header .navbar-toggle .toggle-icon:before,.header .navbar-toggle .toggle-icon:after{background:#3a3339}
+.header .logo-text{color:#231d22!important}
+
+/* Typography */
+h1,h2,h3,h4,h5,h6,strong{color:#231d22!important}
+p,li,span,.text-right p,.service p{color:#6b6663!important}
+a{color:#ff5a00}
+a:hover,a:focus{color:#c94400}
+
+/* Hero: forest-green tint over the photo, light text */
+.promo-block{box-shadow:inset 0 0 0 2000px rgba(46,58,50,.82)}
+.promo-block .promo-block-title,.promo-block .promo-block-text,.promo-block h1,.promo-block p{color:#fff!important}
+.promo-block .promo-block-divider{border-bottom-color:rgba(255,255,255,.3)}
+.promo-block .social-icons,.promo-block .social-icons i{color:#fff!important}
+.promo-block .social-icons:hover{background:#ff5a00!important}
+.promo-block .social-icons:hover i{color:#fff!important}
+
+/* Experience cards: white-mint with coloured top rule */
+.service{border:none!important;border-top:3px solid #2b1e2a!important}
+.service.bg-color-base{border-top-color:#ff5a00!important}
+.service h3,.service .service-title,.service.bg-color-base h3{color:#231d22!important}
+.service p,.service.bg-color-base p{color:#6b6663!important}
+.service i,[class^="icon-"],[class*=" icon-"],.service-icon,.service.bg-color-base i{color:#ff5a00!important}
+
+/* Projects */
+.work:hover .work-overlay:before{background:rgba(43,30,42,.55)!important}
+.masonry-grid-item .work img{filter:none}
+.work-popup-overlay{background-color:rgba(43,30,42,.65)!important}
+.work-popup-content{background:#fbfffd!important;border-top:3px solid #ff5a00;box-shadow:0 10px 40px rgba(0,0,0,.3)}
+.work-popup-tag-link,.work-popup-tag-item{color:#6b6663!important}
+.work-popup-content span{color:#8a8582!important}
+.work-popup-close{color:#8a8582!important}
+
+/* Certifications & research */
+.cert-item{background:#fbfffd!important;border-left:3px solid #ff5a00!important}
+.cert-item strong,.cert-item strong a{color:#231d22!important;border-bottom-color:#ff5a00!important}
+.cert-item span{color:#8a8582!important}
+
+/* Posts */
+.post-card{border:none!important;border-top:3px solid #2b1e2a;box-shadow:none}
+.post-card h3{color:#231d22!important}
+.post-card p,.post-card li{color:#6b6663!important}
+.post-date{color:#ff5a00!important;font-weight:600}
+
+/* Buttons: dark pill, like the reference */
+.btn-base-bg,.btn-theme.btn-base-bg{background:#2b1e2a!important;border-color:#2b1e2a!important;color:#fff!important;border-radius:999px}
+.btn-base-bg:hover{background:#ff5a00!important;border-color:#ff5a00!important;color:#fff!important}
+
+/* Footer: aubergine with light text */
+.footer .logo-text,.footer h1,.footer h2,.footer h3,.footer h4,.footer h5{color:#f0ebdc!important}
+.footer p,.footer span,.footer li{color:#bdb3bb!important}
+.footer a{color:#f0ebdc!important}
+.footer a:hover{color:#ff5a00!important}
+
+/* Misc */
+hr,.line{border-color:#e0d9c6!important;background:#e0d9c6!important}
+input,textarea,select{background:#fbfffd!important;color:#231d22!important;border-color:#d9d2bd!important}
+.back-to-top{background:#ff5a00!important;color:#fff!important}
+
+/* ---- Posts: horizontal cards (image left, text right) ---- */
+.posts-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:28px}
+.posts-eyebrow{font-family:'Fraunces',Georgia,serif;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:#8a8582;margin-bottom:6px}
+.posts-head h2{font-size:44px;line-height:1.1;margin:0}
+.posts-head .btn-theme{padding:13px 28px;font-size:14px;font-weight:600;letter-spacing:0;text-transform:none}
+.posts-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.post-row{display:flex;gap:20px;align-items:stretch;padding:18px;background:#fbfffd;border:1px solid #e6e0cf;text-decoration:none!important;transition:border-color .2s,box-shadow .2s}
+.post-row:hover{border-color:#ff5a00;box-shadow:0 4px 16px rgba(43,30,42,.08)}
+.post-row img{flex:none;width:168px;height:126px;object-fit:cover;object-position:top}
+.post-row-body{display:flex;flex-direction:column;justify-content:space-between;min-width:0}
+.post-row .post-meta{font-family:'Fraunces',Georgia,serif;font-size:14px;text-transform:uppercase;color:#ff5a00!important;margin-bottom:6px}
+.post-row h3{font-family:'DM Sans',sans-serif!important;font-size:17px;font-weight:600;line-height:1.4;margin:0;color:#231d22!important}
+.post-row .post-link{font-size:14px;color:#ff5a00!important;margin-top:14px}
+.post-row:hover .post-link{text-decoration:underline}
+@media (max-width:767px){.posts-grid{grid-template-columns:1fr}.posts-head h2{font-size:34px}}
+@media (max-width:480px){.post-row{flex-direction:column}.post-row img{width:100%;height:160px}}
