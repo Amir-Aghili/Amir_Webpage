@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+/* ---- Fonts: Fraunces (serif) for headings, DM Sans for everything else ---- */
+body,p,li,li a,a,span,em,input,textarea,select,.btn-theme,.nav-item-child,.header .nav-item-child,.link{font-family:'DM Sans',Hind,sans-serif!important}
+h1,h2,h3,h4,h5,h6,.promo-block .promo-block-title,.promo-block .promo-block-text,.header .logo-text,.logo-text{font-family:'Fraunces',Georgia,serif!important;font-weight:600}
+.promo-block .promo-block-text{font-weight:400}
+h2{letter-spacing:-.01em}
+.header .nav-item-child{font-size:13px;font-weight:600;letter-spacing:.04em}
+
+/* ---- Certification / research lists: clean cards instead of bullets ---- */
+.cert-list{list-style:none;padding:0;margin:0}
+.cert-item{display:block;padding:16px 20px;margin-bottom:10px}
+.cert-item strong{display:block;font-size:16px;line-height:1.4}
+.cert-item span{display:block;font-size:13px;line-height:1.5;margin-top:2px}
+
+/* ---- Project tiles: tint the dark photos green so they match the palette ---- */
+.work .work-overlay:before{background:rgba(46,58,50,.55)!important}
+.work:hover .work-overlay:before{background:rgba(255,90,0,.55)!important}
+
 /* ---- Warm cream / forest green / orange theme ----
    Palette:
    cream      #f0ebdc   (page sections)
